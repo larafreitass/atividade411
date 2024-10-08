@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #f4acb7;
+    background-color: #d68291;
     height: 6rem;
     display: flex;
     justify-content: center;
@@ -71,6 +71,8 @@ h2 {
     background-color: #f1cdd4;
     margin-top: 40px;
     border-radius: 3%;
+
+    box-shadow: 4px 4px 10px rgba(0, 0 ,0 , 0.5);
 }
 
 .terceira img {
@@ -91,11 +93,13 @@ h2 {
 }
 
 .quarta {
-    background-color: #f4acb7;
+    background-color: #d68291;
     height: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
+
+
 
 }
 
@@ -104,4 +108,11 @@ h2 {
     top: 0%;
     left: 42%;
     right: 42%;
+}
+
+.primeira p {
+    background-color: #93d6e4 ;
+    box-shadow: 4px 4px 10px rgba(0, 0 ,0 , 0.5);
+    border-radius: 10px;
+    margin-top: 40px;
 }
