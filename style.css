@@ -62,10 +62,15 @@ h2 {
     height: 30rem;
     display: flex;
     align-items: center;
+
+    position: relative;
+    text-align: center;
 }
 
 .segunda p {
-    background-color: #fda4b4;
+    background-color: #f1cdd4;
+    margin-top: 40px;
+    border-radius: 3%;
 }
 
 .terceira img {
@@ -94,5 +99,9 @@ h2 {
 
 }
 
-
-
+.h2t {
+    position: absolute;
+    top: 0%;
+    left: 42%;
+    right: 42%;
+}
